@@ -146,6 +146,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Check_sizeof_array.cpp" />
+    <ClCompile Include="Read_pointer_array.cpp" />
+    <ClCompile Include="Read_vector_elements.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

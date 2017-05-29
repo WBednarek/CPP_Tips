@@ -1,0 +1,1 @@
+int JAlength = sizeof(JA) / sizeof(JA[0]);
