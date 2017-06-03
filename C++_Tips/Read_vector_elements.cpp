@@ -1,4 +1,5 @@
-//display values
+//displays values and saves it to file named output2.txt
+//add #include <fstream>
 
 
 
