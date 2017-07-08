@@ -24,5 +24,11 @@
     <ClCompile Include="Check_sizeof_array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Max_vector_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Range_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
