@@ -62,8 +62,8 @@ calculator.cpp
 #include "caclulator.h"
 
 /**
-!!! For some reason, variable Token_stream ts has to be in .cpp file,
-not in .h.
+!!! For some reason, variable Token_stream ts has to be in the .cpp file,
+not in the .h.
 */
 Token_stream ts; //!!!
 
