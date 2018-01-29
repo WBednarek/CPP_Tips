@@ -61,8 +61,11 @@ calculator.cpp
 #include "stdafx.h"
 #include "caclulator.h"
 
-
-Token_stream ts;
+/**
+!!! For some reason, variable Token_stream ts has to be in .cpp file,
+not in .h.
+*/
+Token_stream ts; //!!!
 
 Token::Token(char ch)    // make a Token from a char
 	:kind(ch), value(0) { }
