@@ -21,7 +21,6 @@ void display_vector(vector<T> & to_disp)
 	}
 }
 
-
 //Method 3
 /**
 @brief Overloaded operator << in order to display vector in cout
