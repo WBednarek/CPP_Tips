@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Check_sizeof_array.cpp" />
+    <ClCompile Include="display_vector.cpp" />
     <ClCompile Include="Max_vector_value.cpp" />
     <ClCompile Include="Range_vector.cpp" />
     <ClCompile Include="Read_pointer_array.cpp" />
