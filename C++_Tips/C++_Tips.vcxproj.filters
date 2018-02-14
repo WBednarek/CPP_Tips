@@ -36,7 +36,10 @@
     <ClCompile Include="display_vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Random_numbers_generator.cpp">
+    <ClCompile Include="Random_number_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MAX_INT_MAX_DOUBLE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
