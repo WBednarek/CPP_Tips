@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Check_sizeof_array.cpp" />
+    <ClCompile Include="cin_ignore.cpp" />
     <ClCompile Include="display_vector.cpp" />
     <ClCompile Include="MAX_INT_MAX_DOUBLE.cpp" />
     <ClCompile Include="Max_vector_value.cpp" />

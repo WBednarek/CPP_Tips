@@ -42,5 +42,8 @@
     <ClCompile Include="MAX_INT_MAX_DOUBLE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cin_ignore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
