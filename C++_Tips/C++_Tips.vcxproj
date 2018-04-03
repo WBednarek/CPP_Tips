@@ -153,10 +153,12 @@
     <ClCompile Include="Integer_Overflow_Handling.cpp" />
     <ClCompile Include="MAX_INT_MAX_DOUBLE.cpp" />
     <ClCompile Include="Max_vector_value.cpp" />
+    <ClCompile Include="namespaces.cpp" />
     <ClCompile Include="Random_number_generator.cpp" />
     <ClCompile Include="Range_vector.cpp" />
     <ClCompile Include="Read_pointer_array.cpp" />
     <ClCompile Include="Read_vector_elements.cpp" />
+    <ClCompile Include="templates.cpp" />
     <ClCompile Include="Try_Catch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
