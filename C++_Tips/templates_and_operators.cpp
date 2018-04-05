@@ -1,3 +1,8 @@
+/**
+From: http://www.cplusplus.com/forum/general/27198/, retreived 06.04.2018
+by m4ster r0shi
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
