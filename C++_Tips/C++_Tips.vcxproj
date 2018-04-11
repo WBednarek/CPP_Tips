@@ -149,6 +149,7 @@
     <ClCompile Include="Check_sizeof_array.cpp" />
     <ClCompile Include="cin_ignore.cpp" />
     <ClCompile Include="display_vector.cpp" />
+    <ClCompile Include="ENTER_pressed_activity.cpp" />
     <ClCompile Include="Errors.cpp" />
     <ClCompile Include="Integer_Overflow_Handling.cpp" />
     <ClCompile Include="MAX_INT_MAX_DOUBLE.cpp" />

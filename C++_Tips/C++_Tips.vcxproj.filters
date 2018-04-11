@@ -63,5 +63,8 @@
     <ClCompile Include="Robust_code.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ENTER_pressed_activity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
