@@ -36,7 +36,8 @@ void non_a_number()
 
 int main()
 {
-	cout << "Wprowadz jak¹kolwiek liczbê" << endl;
+	system("chcp 1250");
+	cout << "WprowadŸ jak¹kolwiek liczbê" << endl;
 	int number = -17;
 	while (true)
 	{
