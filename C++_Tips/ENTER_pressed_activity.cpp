@@ -1,4 +1,12 @@
 //!!! CRUCIAL LINE if (cin.get() == '\n') 
+//D£UGO TEGO SZUKA£EM
+/*
+Found on:
+http://www.cplusplus.com/forum/beginner/2624/
+
+Duthomhas (10992) posted on Jun 28, 2008 at 3:23pm
+THANKS!!!
+*/
 
 #include "stdafx.h"
 #include<iostream>
