@@ -60,5 +60,8 @@
     <ClCompile Include="templates_and_operators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Robust_code.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
