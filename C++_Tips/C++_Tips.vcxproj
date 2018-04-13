@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Align_displayed_table.cpp" />
     <ClCompile Include="Check_sizeof_array.cpp" />
     <ClCompile Include="cin_ignore.cpp" />
     <ClCompile Include="display_vector.cpp" />
