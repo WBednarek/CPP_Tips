@@ -54,6 +54,7 @@ void exercise_10()
 
 void display_table(const vector<string>& names_vec, const vector<string>& surnames_vec, const  vector<string>& phone_numbers_vec, const vector<string>& emails_vec)
 {
+	const int table_width = 15;
 	int size1, size2, size3, size4;
 	size1 = names_vec.size();
 	size2 = surnames_vec.size();
@@ -63,12 +64,12 @@ void display_table(const vector<string>& names_vec, const vector<string>& surnam
 	{
 		error("Wrong sizes of inputet vectors in order to make an table");
 	}
-	cout << "|" << left << setw(14) << "Name" << "|" << setw(14) << "Surname" << "|" << setw(14) << "Phone Number" << "|" << setw(14) << "Email" << "|" << endl;
+	cout << "|" << left << setw(table_width) << "Name" << "|" << setw(table_width) << "Surname" << "|" << setw(table_width) << "Phone Number" << "|" << setw(table_width) << "Email" << "|" << endl;
 
 
 	for (int i = 0; i < names_vec.size(); ++i)
 	{
-		cout << "|" << left << setw(14) << names_vec[i] << "|" << setw(14) << surnames_vec[i] << "|" << setw(14) << phone_numbers_vec[i] << "|" << setw(14) << emails_vec[i] << "|" << endl;
+		cout << "|" << left << setw(table_width) << names_vec[i] << "|" << setw(table_width) << surnames_vec[i] << "|" << setw(table_width) << phone_numbers_vec[i] << "|" << setw(table_width) << emails_vec[i] << "|" << endl;
 	}
 
 }
