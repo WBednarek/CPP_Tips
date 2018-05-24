@@ -69,5 +69,8 @@
     <ClCompile Include="Align_displayed_table.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="namespaces_issue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
