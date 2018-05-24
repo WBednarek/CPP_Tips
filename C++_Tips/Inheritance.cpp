@@ -1,3 +1,9 @@
+/**
+For the better-desinged code check my Github:
+Stroustrup_Graphics/Stroustrup_Graphics/Rozdzial_14/
+
+*/
+
 #include <iostream>
 
 using namespace std;
