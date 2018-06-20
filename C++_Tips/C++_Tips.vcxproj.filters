@@ -78,5 +78,8 @@
     <ClCompile Include="Inheritance_simplified.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Statistics_variance_median_etc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

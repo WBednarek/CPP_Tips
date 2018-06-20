@@ -164,6 +164,7 @@
     <ClCompile Include="Read_pointer_array.cpp" />
     <ClCompile Include="Read_vector_elements.cpp" />
     <ClCompile Include="Robust_code.cpp" />
+    <ClCompile Include="Statistics_variance_median_etc.cpp" />
     <ClCompile Include="templates.cpp" />
     <ClCompile Include="templates_and_operators.cpp" />
     <ClCompile Include="Try_Catch.cpp" />
