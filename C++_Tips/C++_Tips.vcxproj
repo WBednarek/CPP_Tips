@@ -152,6 +152,7 @@
     <ClCompile Include="display_vector.cpp" />
     <ClCompile Include="ENTER_pressed_activity.cpp" />
     <ClCompile Include="Errors.cpp" />
+    <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="Inheritance.cpp" />
     <ClCompile Include="Inheritance_simplified.cpp" />
     <ClCompile Include="Integer_Overflow_Handling.cpp" />
