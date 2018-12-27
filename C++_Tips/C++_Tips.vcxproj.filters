@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Axis_scaling">
+      <UniqueIdentifier>{80667457-454d-444a-90bf-e8299062ba27}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Read_pointer_array.cpp">
@@ -84,5 +87,22 @@
     <ClCompile Include="Factorial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Axis_scaling.cpp">
+      <Filter>Source Files\Axis_scaling</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\1.jpg">
+      <Filter>Source Files\Axis_scaling</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\book_1.jpg">
+      <Filter>Source Files\Axis_scaling</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\book_2.jpg">
+      <Filter>Source Files\Axis_scaling</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\2.jpg">
+      <Filter>Source Files\Axis_scaling</Filter>
+    </Image>
   </ItemGroup>
 </Project>

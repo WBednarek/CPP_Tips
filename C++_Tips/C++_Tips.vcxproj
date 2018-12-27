@@ -165,10 +165,17 @@
     <ClCompile Include="Read_pointer_array.cpp" />
     <ClCompile Include="Read_vector_elements.cpp" />
     <ClCompile Include="Robust_code.cpp" />
+    <ClCompile Include="Axis_scaling.cpp" />
     <ClCompile Include="Statistics_variance_median_etc.cpp" />
     <ClCompile Include="templates.cpp" />
     <ClCompile Include="templates_and_operators.cpp" />
     <ClCompile Include="Try_Catch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\1.jpg" />
+    <Image Include="..\..\..\..\..\Desktop\2.jpg" />
+    <Image Include="..\..\..\..\..\Desktop\book_1.jpg" />
+    <Image Include="..\..\..\..\..\Desktop\book_2.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
