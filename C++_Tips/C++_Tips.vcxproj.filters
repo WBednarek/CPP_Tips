@@ -16,9 +16,6 @@
     <Filter Include="Source Files\Axis_scaling">
       <UniqueIdentifier>{80667457-454d-444a-90bf-e8299062ba27}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Operator and class">
-      <UniqueIdentifier>{c22b9d07-5a3b-4a77-b036-413212a80a46}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Read_pointer_array.cpp">
@@ -93,12 +90,6 @@
     <ClCompile Include="Axis_scaling.cpp">
       <Filter>Source Files\Axis_scaling</Filter>
     </ClCompile>
-    <ClCompile Include="Person.cpp">
-      <Filter>Source Files\Operator and class</Filter>
-    </ClCompile>
-    <ClCompile Include="Operator.cpp">
-      <Filter>Source Files\Operator and class</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\..\Desktop\1.jpg">
@@ -113,13 +104,5 @@
     <Image Include="..\..\..\..\..\Desktop\2.jpg">
       <Filter>Source Files\Axis_scaling</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Person.h">
-      <Filter>Source Files\Operator and class</Filter>
-    </ClInclude>
-    <ClInclude Include="std_lib_facilities.h">
-      <Filter>Source Files\Operator and class</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
