@@ -160,6 +160,8 @@
     <ClCompile Include="Max_vector_value.cpp" />
     <ClCompile Include="namespaces.cpp" />
     <ClCompile Include="namespaces_issue.cpp" />
+    <ClCompile Include="Operator.cpp" />
+    <ClCompile Include="Person.cpp" />
     <ClCompile Include="Random_number_generator.cpp" />
     <ClCompile Include="Range_vector.cpp" />
     <ClCompile Include="Read_pointer_array.cpp" />
@@ -176,6 +178,10 @@
     <Image Include="..\..\..\..\..\Desktop\2.jpg" />
     <Image Include="..\..\..\..\..\Desktop\book_1.jpg" />
     <Image Include="..\..\..\..\..\Desktop\book_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="std_lib_facilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
