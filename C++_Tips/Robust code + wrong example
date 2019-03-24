@@ -1,0 +1,122 @@
+/*
+When you put non int number like p, c or another symbol program starts infinite loop.
+That means you need to protect your code of inputing wrond input.
+
+
+#include <iostream>
+
+
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
+
+
+
+int main()
+{
+
+	while (1)
+	{
+	cout << "Insert int " << endl;
+	int a = -3;
+	cin >> a;
+	if (a == -1) break;
+	cout << "the number is " << a << "\n";
+}
+
+	cout << "Hello World!\n";
+	return 0;
+}
+*/
+
+
+
+/* Here is the robust solution */
+
+#include "pch.h"
+#include <iostream>
+
+
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
+
+
+inline void error(const string& s)
+{
+	throw std::runtime_error(s);
+}
+
+//MOja modyfikacja funkcji skip_to_int()
+void skip_to_int()
+{
+	if (cin.fail())
+	{
+		cin.clear();
+		char ch;
+		while (cin >> ch)
+		{
+			if (isdigit(ch))
+			{
+				cin.unget();
+				return;
+			}
+			if (cin.get() == '\n')
+			{
+				cout << "Still not a number" << endl;
+			}
+			cin.unget();
+
+		}
+	}
+	error("skip_to_int: Stream failed");
+
+}
+
+
+
+int get_int()
+{
+	int n = 0;
+	while (true)
+	{
+		if (cin >> n) return n;
+		cout << "Unfortunately it was not a number, Try again" << endl;
+		skip_to_int();
+	}
+}
+
+int get_int(int low, int high)
+{
+	cout << "Intert the number within the range from " << low << " to " << high << endl;
+
+	while (true)
+	{
+		int n = get_int();
+
+		if (n >= low && n <= high) return n;
+		cout << "Unfortunately, " << n << " does not belond to the range" << low << ',' << high
+			<< "\nTry againz" << endl;
+	}
+
+}
+
+
+
+
+int main()
+{
+	while (1)
+	{
+		cout << "Insert int, input -1 to exit " << endl;
+		int a = get_int();
+
+		if (a == -1) break;
+		cout << "the number is " << a << "\n";
+	}
+
+	cout << "Hello World!\n";
+	return 0;
+}
