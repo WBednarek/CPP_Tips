@@ -1,8 +1,9 @@
 /*
-When you put non int number like p, c or another symbol program starts infinite loop.
-That means you need to protect your code of inputing wrond input.
+When you put a non-int number like p, c another or double symbol program starts an infinite loop.
+That means you need to protect your code of inputting wrong input.
+*/
 
-
+#include "pch.h"
 #include <iostream>
 
 
@@ -25,14 +26,16 @@ int main()
 	cout << "the number is " << a << "\n";
 }
 
-	cout << "Hello World!\n";
+	cout << "Program ends";
 	return 0;
 }
-*/
 
 
 
-/* Here is the robust solution */
+
+/* Here is the robust solution but does not works for double numbers. 
+He considers the fractional part as a whole number.
+
 
 #include "pch.h"
 #include <iostream>
@@ -120,3 +123,5 @@ int main()
 	cout << "Hello World!\n";
 	return 0;
 }
+
+*/
