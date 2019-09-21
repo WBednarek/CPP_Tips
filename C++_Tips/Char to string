@@ -1,0 +1,18 @@
+//From https://www.techiedelight.com/convert-char-to-string-cpp/, retrieved 21.09.2019
+
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+	char c = 'A';
+
+	// using string::push_back
+
+	std::string s;
+	s.push_back(c);
+	std::cout << s << '\n';
+
+	return 0;
+}
