@@ -1,0 +1,17 @@
+// You need to set default argument only once in .cpp file.
+
+
+.h file
+struct Bar_chart : public Graph_lib::Shape
+	{
+		Bar_chart(vector<double> values, Point orig, double width, double xscale, double yscale);
+		void set_bar_label(int bar_num, string lab);
+
+	};
+
+
+.cpp file
+void Bar_chart::set_bar_label(int bar_num, string lab = "ini")
+	{
+		//...
+	}
