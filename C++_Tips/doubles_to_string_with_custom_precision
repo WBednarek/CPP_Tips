@@ -1,0 +1,67 @@
+
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <iomanip>
+#include <vector>
+
+using namespace std;
+
+inline void error(const std::string& s)
+{
+	throw std::runtime_error(s);
+}
+
+
+string set_double_precision(double num, int precision)
+	{
+		ostringstream streamObj3;
+
+		// Set Fixed -Point Notation
+		streamObj3 << fixed;
+
+		// Set precision to 2 digits
+		streamObj3 << setprecision(precision);
+
+		//Add double to stream
+		streamObj3 << num;
+
+		// Get string from output string stream
+		string strObj3 = streamObj3.str();
+
+		return strObj3;
+
+	}
+
+	vector<string> transfer_doubles_to_string(const vector<double>& vec, int precision)
+	{
+	   vector<string> vec_str;
+		for (int i = 0; i < vec.size(); ++i)
+		{	
+			string val_precision = set_double_precision(vec[i], precision);
+			vec_str.push_back(val_precision);
+		}
+		
+		return vec_str;
+	}
+
+void display_vec(const vector<string>& vec_str)
+{
+    for(int i = 0; i < vec_str.size();++i)
+    {
+        cout << vec_str[i] << "  " ;
+    }
+}
+
+
+int main()
+{
+    double num = 3.23322;
+    const int precision = 2;
+    vector<double> my_vec = {123.231,32.1,32.2313132241,312.4124112,11.23124,10,233};
+	vector<string> my_str_vec;
+	my_str_vec = transfer_doubles_to_string(my_vec, precision);
+    display_vec(my_str_vec);
+
+    return 0;
+}
