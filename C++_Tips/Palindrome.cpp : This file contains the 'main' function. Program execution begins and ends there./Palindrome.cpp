@@ -21,7 +21,7 @@ bool isPalindrome(std::string word)
 }
 
 
-int main()
+int palindrome()
 {
     
 	std::cout << isPalindrome("d1otod");
