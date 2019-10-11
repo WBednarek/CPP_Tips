@@ -1,3 +1,14 @@
+#include <chrono>
+
+int true_rand(int low, int high)
+{
+	unsigned seed = chrono::system_clock::now().time_since_epoch().count();
+	default_random_engine generator(seed);
+	uniform_int_distribution<int> dist(low, high);
+	return dist(generator);
+}
+
+
 template<typename T>
 vector<T> random_vector()
 {
