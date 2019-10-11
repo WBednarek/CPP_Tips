@@ -1,6 +1,6 @@
 #pragma once
-#include "../Simple_window.h"    // get access to our window library
-#include "../Graph.h"            // get access to our graphics library facilities
+#include "Simple_window.h"    // get access to our window library
+#include "Graph.h"            // get access to our graphics library facilities
 #include <chrono>
 
 namespace H16_3
