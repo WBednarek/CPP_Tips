@@ -1,4 +1,4 @@
-In this class, you can find a number of programming practices:
+In homework_15 files, you can find a number of programming practices:
 
 - .cpp and .h files 
 - classes and inheritance 
@@ -6,7 +6,7 @@ In this class, you can find a number of programming practices:
 - find_max_value function
 - good practice of saving and reading data from the file
 - converting doubles to string with the required precision
-- the factorial function of iteration and recursive approaches
+- the factorial function of iteration and the recursive approaches
 - switch case statement with enum type usage
 - storing the objects that need to be normally initialized with a constructor (Vector_ref type)
 - dealing with the objects in the class that also should have initialized constructor like Text objects – I had Text label. This is done by initializing it in a class constructor, see Bar_chart constructor.
@@ -22,3 +22,11 @@ Graphical issues
 
 … and many more
 
+
+
+
+In homework16_3 you will find a program that dispalys button which moves with image, it contains:
+
+- rand values handling for moving a graphical object
+- how to protect from gettin object away of frame
+- practital usage of overloading functions - function move()
