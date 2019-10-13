@@ -1,16 +1,26 @@
 //The lowest and the highest value, C++ style, 
 //You ma need to #include <limits>
 //For numeric_limits<double>::min() program doesn't work properly, for some reason the value is positive
-double high_temp = numeric_limits<int>::min();
-double low_temp = numeric_limits<double>::max();;
+int min = numeric_limits<int>::min();
+int high = numeric_limits<int>::max(); 
+
+double low_temp = numeric_limits<double>::min();
+double high_temp = numeric_limits<double>::max();
+
+
 
 
 
 
 //The lowest and the highest value, C style,
 //You may need to #include <limits.h>
-double high_temp = DBL_MIN;
+//#include <cfloat> for DBL_MAX and DBL_MIN
+int low = INT_MAX;
+int high = INT_MIN;
+
 double low_temp = DBL_MAX;
+double high_temp = DBL_MIN;
+
 
 
 
