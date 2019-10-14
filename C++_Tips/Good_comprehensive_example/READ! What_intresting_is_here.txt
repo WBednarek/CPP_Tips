@@ -25,8 +25,15 @@ Graphical issues
 
 
 
+
 In homework16_3 you will find a program that dispalys button which moves with image, it contains:
 
 - rand values handling for moving a graphical object
 - how to protect from gettin object away of frame
 - practital usage of overloading functions - function move()
+
+
+
+
+
+In homework16_5 you will find a good, robust GUI program code.
