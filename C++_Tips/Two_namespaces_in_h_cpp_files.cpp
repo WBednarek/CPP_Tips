@@ -139,3 +139,36 @@ namespace vec
 
 	}
 }
+
+
+//----------------------------------------------------------------------------------
+// main()
+
+
+#include "stdafx.h"
+#include "std_lib_facilities_v2.h"
+#include "Rozdzial_18/Exercises_18.h"
+
+
+int main()
+{
+	try {
+		system("chcp 1250");
+		Ex18::drill_2();
+		system("pause");
+	}
+
+	catch (exception& e) {
+		cerr << "exception: " << e.what() << endl;
+		return 1;
+	}
+	catch (...) {
+		cerr << "exception\n";
+		return 2;
+	}
+	return 0;
+
+}
+
+
+
