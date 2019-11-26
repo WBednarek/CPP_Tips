@@ -36,6 +36,19 @@ int fac_Stroustrup(int n)
 }
 
 
+void fill_array_with_fct(int to_fill[], int n)
+{
+	if (n > 19) error("Factorial is too big");
+	int fact = 1;
+	to_fill[0] = fact;
+	for (int i = 1; i < n; ++i)
+	{
+		fact *= i;
+		to_fill[i] = fact;
+	}
+}
+
+
 int main()
 {
 	std::cout << fct(15) << std::endl;

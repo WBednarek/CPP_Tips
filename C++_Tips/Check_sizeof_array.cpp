@@ -13,3 +13,18 @@ int main()
 
 	return 0;
 }
+
+//When you are passing a C-style array as a parameter, unfortunately, you have to pass its size too, since the name of the array is only the address of its first element.
+void copy(int toCopy[], int second[], int size)
+{
+	/*
+	//IT WILL NOT WORK! YOU NEED TO PASS AN ARRAY SIZE AS PARAMETER IN FUNCTION.
+	int size1 = sizeof(toCopy) / sizeof(toCopy[0]);
+	int size2 = sizeof(second) / sizeof(second[0]);
+	if (size1 != size2) error("Sizes of arrays mismatch!");
+	*/
+	for (int i = 0; i < size; ++i)
+	{
+		toCopy[i] = second[i];
+	}
+}
