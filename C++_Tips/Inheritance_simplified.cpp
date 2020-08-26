@@ -1,3 +1,37 @@
+// derived classes
+//Runned in cpp.sh
+#include <iostream>
+using namespace std;
+
+class Polygon {
+  protected:
+    int width, height, inheritance_validation = -12;
+  public:
+    void set_values (int a, int b)
+      { width=a; height=b; }
+ };
+
+class Rectangle: public Polygon {
+  public:
+    int area ()
+      { return width * height; }
+      
+     int inheritance_validation_of_getting_variables ()
+     {
+         return inheritance_validation;
+     }
+    
+ };
+
+
+int main () {
+  Rectangle rect;
+  rect.set_values (4,5);
+  cout << rect.area() << '\n';
+  cout <<rect.inheritance_validation_of_getting_variables()<< '\n';
+  return 0;
+}
+
 /**
 For the better code check on my Github:
 Stroustrup_Graphics/Stroustrup_Graphics/Rozdzial_14/
