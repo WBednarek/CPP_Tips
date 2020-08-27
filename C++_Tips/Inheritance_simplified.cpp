@@ -32,6 +32,20 @@ int main () {
   return 0;
 }
 
+//Invoking base class constructor! 
+//Stroustrup Programming Principles and Practice (PPP) Chapter 13.5, page 434
+
+struct Marks : Marked_polyline {
+    Marks(const string& m) :Marked_polyline(m)
+    {
+        set_color(Color(Color::invisible));
+    }
+};
+
+
+
+
+
 /**
 For the better code check on my Github:
 Stroustrup_Graphics/Stroustrup_Graphics/Rozdzial_14/
@@ -94,7 +108,6 @@ class B2
 public:
 	virtual void pvf() const = 0;
 };
-
 
 class D21 :
 	public B2
