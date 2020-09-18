@@ -1,0 +1,19 @@
+/* Logical value of assignment (s=4)inside if is true, to check value use ==. 
+Also if you use single = you will do assignment itself.
+*\
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int s =0;
+    if(s=4)
+    {
+    cout<<"Hello World"<<endl;
+    }
+    cout<<s;
+    
+
+    return 0;
+}
